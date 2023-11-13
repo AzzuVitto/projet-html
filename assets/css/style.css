@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Lilita+One&family=Londrina+Solid:wght@300&family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Lilita+One&family=Londrina+Solid:wght@100&family=Titan+One&display=swap');
+
+header {
+    display: flex;
+    color: white;
+    background-color: darkslateblue;
+    border: 2px dotted #cf70db;
+}
+
+h1 {
+    font-family: Londrina Solid;
+    display: flex;
+    align-items: center;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+}
+
+h2 p {
+    display: flex;
+}
+
+.gif_logo {
+    display: flex;
+    border-radius: 100px;
+    box-shadow: -2px 4px 16px 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+
+}
+
+.img-metier {
+    width: 100%;
+    box-shadow: 6px 4px 5px 1px;
+    margin-bottom: 30px;
+}
+
+#table {
+    width: 100%;
+    box-shadow: 6px 4px 5px 1px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../images/ciel.jpg);
+    background-size: cover;
+    color: darkslateblue;
+    font-size: 1.2em
+}
+
+.developpeur_web {
+
+    display: flex;
+    justify-content: space-around;
+    font-family: Londrina Solid, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px dotted #cf70db;
+
+}
+
+
+
+.metier {
+
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.metier:hover {
+
+    transform: scale(1.25);
+}
+
+.schema {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.schema:hover {
+
+    transform: scale(1.25);
+}
+
+header nav ul {
+    display: flex;
+
+    gap: 100px;
+    color: white;
+    list-style-type: none;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.hpage_one {
+
+    display: flex;
+    border: 2px dotted #cf70db;
+    font-family: Londrina Solid, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.what {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.notions {
+
+    font-family: Londrina Solid, sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.what:hover {
+
+    transform: scale(1.10);
+}
+
+.notions:hover {
+
+    transform: scale(1.10);
+}
+
+.quoi:hover {
+    transform: scale(1.10);
+}
+
+.bases:hover {
+    transform: scale(1.10);
+}
+
+#pic {
+
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#ex {
+
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#sch {
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#exex {
+    box-shadow: 6px 4px 5px 1px;
+    margin-bottom: 30px;
+}
+
+.ex_one {
+    display: flex;
+    justify-content: center;
+}
+
+.hpage_two {
+    display: flex;
+    border: 2px dotted #cf70db;
+    font-family: Londrina Solid, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-container-box {
+    font-family: Londrina Solid, sans-serif;
+}
+.bases {
+
+
+    font-family: Londrina Solid, sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.quoi {
+
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+#geek {
+    box-shadow: 6px 4px 5px 1px;
+
+}
+
+#exemple {
+
+    box-shadow: 6px 4px 5px 1px;
+
+}
+
+#pictwo {
+    box-shadow: 6px 4px 5px 1px;
+    margin-bottom: 30px;
+}
+
+.hpage_three {
+    display: flex;
+    border: 2px dotted #cf70db;
+    font-family: Londrina Solid, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.php {
+    font-family: Londrina Solid, sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.info {
+    font-family: Londrina Solid, sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.js {
+    font-family: Londrina Solid, sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.exjs {
+    font-family: Londrina Solid, sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.php:hover {
+    transform: scale(1.10);
+}
+
+.info:hover {
+    transform: scale(1.10);
+}
+
+.js:hover {
+    transform: scale(1.10);
+}
+
+.exjs:hover {
+    transform: scale(1.10);
+}
+
+#code_php {
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#php_one {
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#ele {
+    box-shadow: 6px 4px 5px 1px;
+    margin-bottom: 30px;
+}
+
+#baby_dev {
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#code_js {
+    box-shadow: 6px 4px 5px 1px;
+}
+
+#last {
+    box-shadow: 6px 4px 5px 1px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: darkslateblue;
+    font-family: Londrina Solid, sans-serif;
+    border: 2px dotted #cf70db;
+
+}
+
+.footer_logo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer_Traduire {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer_liens {
+    display: flex;
+    list-style: none;
+
+    gap: 20px;
+}
+
+.footer_liens li a {
+    text-decoration: none;
+
+}
+
+.footer_liens li:nth-child(2n) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.hpage_four {
+    display: flex;
+    border: 2px dotted #cf70db;
+    font-family: Londrina Solid, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact {
+    font-family: Londrina Solid, sans-serif;
+    border: 2px dotted #cf70db;
+
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.contact-container:hover {
+    transform: scale(1.10);
+
+
+}
+
+.mailtwo:hover {
+    transform: scale(1.10);
+}
+
+
+.ti {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mailtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+
+
+.tel {
+    text-decoration: underline;
+
+}
+
+
+.telrobot {
+    border-radius: 100%;
+    box-shadow: -2px 4px 16px 3px;
+}
+
+
+
+.logo_mail {
+    border-radius: 100%;
+    box-shadow: -2px 4px 16px 3px;
+}
+
+
+
+.mail {
+    text-decoration: underline;
+
+}
+
+#name {
+    border: 2px dotted #cf70db;
+}
+
+#first {
+    border: 2px dotted #cf70db;
+}
+
+#mail {
+    border: 2px dotted #cf70db;
+}
+
+#area {
+    border: 2px dotted #cf70db;
+}
+
+#btn {
+    background-color: aqua;
+    box-shadow: -2px 4px 16px 3px;
+}
+
+#btn:hover {
+    background-color: #cf70db;
+
+}
+#button {
+    background-color: aqua;
+    box-shadow: -2px 4px 16px 3px;
+}
+#button:hover {
+    background-color: #cf70db;
+}
+
+.form-container-box {
+    text-align: center;
+    -webkit-transition: all 1s ease;
+
+    -moz-transition: all 1s ease;
+
+    -ms-transition: all 1s ease;
+
+    -o-transition: all 1s ease;
+
+    transition: all 1s ease
+}
+
+.form-container-box:hover {
+    transform: scale(1.10);
+
+}
+
+.box-title {
+    display: flex;
+    justify-content: center
+}
+
+
+@media (max-width:768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .developpeur_web {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .titre {
+        flex-direction: column;
+    }
+
+    .gif_logo {
+        margin: auto;
+    }
+
+    .htwo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hpage_one {
+        flex-direction: column;
+    }
+
+    .metier {
+        margin: auto;
+        width: 100px;
+    }
+
+    .img-metier {
+        width: 200px;
+        height: 200px;
+    }
+
+    #table {
+        width: 200px;
+        height: 200px;
+    }
+
+    #sch {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    #exex {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    #pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .schema {
+        margin: auto;
+        width: 100px;
+    }
+
+    .what {
+        margin: auto;
+        width: 100px;
+    }
+
+    .notions {
+        margin: auto;
+
+        width: 100px;
+    }
+
+    .footer_newsletter {
+        text-align: center;
+
+
+    }
+    .footer_liens li:nth-child(2n) {
+        display: flex;
+        flex-direction: column;
+        border-left: 0;
+        border-right: 0;
+        border-left: 0;
+        padding-right: 0;
+    
+    }
+    .footer_liens {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    #btn {
+        margin-top: 20px;
+    }
+
+    .images {
+        gap: 50px;
+    }
+
+    .hpage_two {
+        flex-direction: column;
+    }
+
+    .quoi {
+        margin: auto;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .bases {
+        margin: auto;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    #geek {
+        width: 200px;
+        height: 200px;
+    }
+
+    #exemple {
+        width: 200px;
+        height: 200px;
+    }
+
+    #pictwo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hpage_three {
+        flex-direction: column;
+    }
+
+    .php {
+        margin: auto;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .info {
+        margin: auto;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    #php_one {
+        width: 200px;
+        height: 200px;
+    }
+
+    #code_php {
+        width: 200px;
+        height: 200px;
+    }
+
+    #ele {
+        width: 200px;
+        height: 200px;
+    }
+    .hpage_four {
+        flex-direction: column;
+    }
+
+    .js {
+        margin: auto;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .exjs {
+        margin: auto;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    #baby_dev {
+        width: 200px;
+        height: 200px;
+    }
+
+    #code_js {
+        width: 200px;
+        height: 200px;
+    }
+
+    #last {
+        width: 200px;
+        height: 200px;
+    }
+
+.areacom {
+    text-align: center;
+}
+
+
+
+
+}
